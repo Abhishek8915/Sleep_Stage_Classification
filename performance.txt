@@ -1,0 +1,66 @@
+overall class wise performance across all disorders:
+
+Normal
+
+(5 class) Overall Test Accuracy: 0.7188 , Cohen Kappa Score: 0.6485
+(4 class) Overall Test Accuracy: 0.7576 , Cohen Kappa Score: 0.6768
+(3 class) Overall Test Accuracy: 0.7433 , Cohen Kappa Score: 0.6149
+(2 class) Overall Test Accuracy: 0.8519 , Cohen Kappa Score: 0.7037
+
+Insomnia
+
+(5 class) Overall Test Accuracy: 0.7681 , Cohen Kappa Score: 0.7102
+(4 class) Overall Test Accuracy: 0.8194 , Cohen Kappa Score: 0.7592
+(3 class) Overall Test Accuracy: 0.7870 , Cohen Kappa Score: 0.6805
+(2 class) Overall Test Accuracy: 0.8390 , Cohen Kappa Score: 0.6780
+
+Apnea
+
+(5 class) Overall Test Accuracy: 0.7377 , Cohen Kappa Score: 0.6721 
+(4 class) Overall Test Accuracy: 0.8053 , Cohen Kappa Score: 0.7404
+(3 class) Overall Test Accuracy: 0.7285 , Cohen Kappa Score: 0.5928
+(2 class) Overall Test Accuracy: 0.7935 , Cohen Kappa Score: 0.5869
+
+PLM
+
+(5 class) Overall Test Accuracy: 0.8369 , Cohen Kappa Score: 0.7961
+(4 class) Overall Test Accuracy: 0.7924 , Cohen Kappa Score: 0.7232
+(3 class) Overall Test Accuracy: 0.7515 , Cohen Kappa Score: 0.6273
+(2 class) Overall Test Accuracy: 0.8093 , Cohen Kappa Score: 0.6186
+
+
+Class Reduction Impact Within Each Group:
+
+--- Normal ---
+5 class → 4 class: Accuracy ↑ +0.0388 | Kappa ↑ +0.0283
+4 class → 3 class: Accuracy ↓ -0.0143 | Kappa ↓ -0.0619
+3 class → 2 class: Accuracy ↑ +0.1086 | Kappa ↑ +0.0888
+
+--- Insomnia ---
+5 class → 4 class: Accuracy ↑ +0.0513 | Kappa ↑ +0.0490
+4 class → 3 class: Accuracy ↓ -0.0324 | Kappa ↓ -0.0787
+3 class → 2 class: Accuracy ↑ +0.0520 | Kappa ↓ -0.0025
+
+--- Apnea ---
+5 class → 4 class: Accuracy ↑ +0.0676 | Kappa ↑ +0.0683
+4 class → 3 class: Accuracy ↓ -0.0768 | Kappa ↓ -0.1476
+3 class → 2 class: Accuracy ↑ +0.0650 | Kappa ↓ -0.0059
+
+--- PLM ---
+5 class → 4 class: Accuracy ↓ -0.0445 | Kappa ↓ -0.0729
+4 class → 3 class: Accuracy ↓ -0.0409 | Kappa ↓ -0.0959
+3 class → 2 class: Accuracy ↑ +0.0578 | Kappa ↓ -0.0087
+
+
+
+Normal
+(5 class) Overall Test Accuracy: 0.7188 , Cohen Kappa Score: 0.6485
+
+Insomnia
+(5 class) Overall Test Accuracy: 0.7681 , Cohen Kappa Score: 0.7102
+
+Apnea
+(5 class) Overall Test Accuracy: 0.7377 , Cohen Kappa Score: 0.6721 
+
+PLM
+(5 class) Overall Test Accuracy: 0.8369 , Cohen Kappa Score: 0.7961
